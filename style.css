@@ -147,6 +147,20 @@ a.home:visited {
 	background-size:cover;
 	background-position: center;
 }
+.project4 {
+	background-image:url(images/typebook.JPG);
+	background-repeat: no-repeat;
+	background-size:cover;
+	background-position: center;
+	transform: rotate(270deg);
+}
+.project5 {
+	background-image:url(images/latinxbook.tif);
+	background-repeat: no-repeat;
+	background-size:cover;
+	background-position: center;
+	transform: rotate(270deg);
+}
 
 
 
@@ -156,9 +170,9 @@ a.home:visited {
 
 /*---------------- Contact --------------*/
 .headshot {
-	margin-top: 15em;
+	margin-top: 30em;
 	height: 18em;
-	background-image:url(images/headshot.jpg);
+	background-image:url(images/book.jpg);
 	background-repeat: no-repeat;
 	background-size:cover;
 	background-position: center;
