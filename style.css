@@ -127,41 +127,76 @@ a.home:visited {
 	position: relative;
 	height: 18em;
 	margin-left: 4.5em;
-	margin-top: 10em;
+	margin-top: 8em;
 }
 .project1 {
-	background-image:url(images/books.jpg);
+	margin-top: 10em;
+	background-image:url(images/book.jpg);
 	background-repeat: no-repeat;
 	background-size:cover;
 	background-position: top;
 }
 .project2 {
-	background-image:url(images/portrait.jpg);
+	margin-top:10em;
+	background-image:url(images/handletter.jpg);
 	background-repeat: no-repeat;
 	background-size:cover;
 	background-position: center;
 }
 .project3 {
+	margin-top:10em;
 	background-image:url(images/typeface.jpg);
 	background-repeat: no-repeat;
 	background-size:cover;
 	background-position: center;
 }
 .project4 {
-	background-image:url(images/typebook.JPG);
+	background-image:url(images/typebook.png);
 	background-repeat: no-repeat;
 	background-size:cover;
 	background-position: center;
-	transform: rotate(270deg);
 }
 .project5 {
-	background-image:url(images/latinxbook.tif);
+	background-image:url(images/rootsraices2.png);
 	background-repeat: no-repeat;
 	background-size:cover;
 	background-position: center;
-	transform: rotate(270deg);
 }
 
+.project6 {
+	background-image:url(images/latinxbook.jpg);
+	background-repeat: no-repeat;
+	background-size:cover;
+	background-position: center;
+
+}
+
+.project7 {
+	background-image:url(images/archer.png);
+	background-repeat: no-repeat;
+	background-size:cover;
+	background-position: center;
+
+
+}
+.project8 {
+	background-image:url(images/accordionbook.png);
+	background-repeat: no-repeat;
+	background-size:cover;
+	background-position: left;
+
+}
+
+
+.footer {
+	margin-top: 9em;
+	padding-bottom: 2em;
+	margin-left: 19.5em;
+	letter-spacing: .2em;
+	font-size: .8em;
+	font-family: 'Heebo', sans-serif;
+	font-style: regular;
+}
 
 
 
@@ -170,12 +205,14 @@ a.home:visited {
 
 /*---------------- Contact --------------*/
 .headshot {
-	margin-top: 30em;
-	height: 18em;
-	background-image:url(images/book.jpg);
+	margin-top: 15em;
+	margin-bottom:5em;
+	height: 25em;
+	background-image:url(images/headshot.JPG);
 	background-repeat: no-repeat;
 	background-size:cover;
 	background-position: center;
+	transform: rotate(270deg);
 	position: relative;
 	z-index: -1;
 }
