@@ -261,13 +261,15 @@ a.home:visited {
 
 
 
+
 /*---------------- Project Pages --------------*/
+
 
 .project_title {
 	font-size: 340%;
 	font-family: 'Heebo', sans-serif;
 	font-style: bold;
-	line-height: 5% ;
+	line-height: 90% ;
 	margin: 3em 0em 0em .5em;
 }
 
@@ -280,7 +282,19 @@ a.home:visited {
 	margin: 3em 0em 4em 2em;
 }
 
-/*---memory---*/
+.parallax {
+	background-attachment: fixed;
+}
+
+
+/*--------Memory--------*/
+.memory_text1 {
+	font-family: 'Heebo', sans-serif;
+	font-weight: 300;
+	font-size: 1.2em;
+	margin: 6em 0em 3em 8em
+}
+
 .memory_img1 {
 	background-image: url(images/book.jpg);
 	height: 40em;
@@ -308,12 +322,6 @@ a.home:visited {
 	background-size: cover;
 	background-position: right;
 	
-}
-.memory_text1 {
-	font-family: 'Heebo', sans-serif;
-	font-weight: 300;
-	font-size: 1.2em;
-	margin: 6em 0em 3em 8em
 }
 
 .memory_img5 {
@@ -390,10 +398,71 @@ a.home:visited {
 	
 }
 
-.parallax {
 
-	background-attachment: fixed;
+/*--------Handletter--------*/
+
+.handletter_text1 {
+	font-family: 'Heebo', sans-serif;
+	font-weight: 300;
+	font-size: 1.2em;
+	margin: 6em 0em 3em 8em
 }
+
+.handletter_img1 {
+	background-image: url(images/handletter.jpg);
+	height: 40em;
+	background-size: cover;
+	background-position: 0em -6em;
+}
+
+.handletter_img2 {
+	background-image: url(images/handletter5.png);
+	height: 40em;
+	background-size: cover;
+}
+
+.handletter_img3 {
+	background-image: url(images/handletter6.png);
+	height: 40em;
+	background-size: cover;
+}
+
+.handletter_img4 {
+	background-image: url(images/handletter1.jpg);
+	height: 30em;
+	width: 30em;
+	margin: 6em 1em 6.5em 6em;
+	background-size: cover;
+	background-position: right;
+	
+}
+
+.handletter_img5 {
+	background-image: url(images/handletter2.jpg);
+	height: 20em;
+	margin: 11em 1em 11em 8em;
+	background-size: cover;
+	background-position: center;
+	
+}
+.handletter_img6 {
+	background-image: url(images/handletter4.jpg);
+	height: 20em;
+	margin: 11em 1em 11em 2em;
+	background-size: cover;
+	background-position: center;
+	
+}
+.handletter_img7 {
+	background-image: url(images/handletter3.jpg);
+	height: 20em;
+	margin: 11em 1em 12em 2em;
+	background-size: cover;
+	background-position: center;
+	
+}
+
+
 
 /*---------------- Contact --------------*/
 .headshot {
