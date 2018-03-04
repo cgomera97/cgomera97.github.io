@@ -70,18 +70,20 @@ a.home:visited {
 	position: absolute;
 	height: 45em;
 	width: 35em;
-	margin-top: 4.5%;
+	margin-top: 4.3%;
 	margin-left: -1%;
-	background-image:url(images/plant.jpg);
+	background-image:url(images/plant2.JPG);
 	background-repeat: no-repeat;
 	background-size: cover;
+	background-position: center;
 }
 .helloiam {
 	font-size: 340%;
 	font-family: 'Heebo', sans-serif;
 	font-style: bold;
 	line-height: 5% ;
-	margin: 25% 0% 0% 62%;
+	position: fixed;
+	margin: 3.5em 0em 0em 65%;
 	background-color: none;
 	border: none;
 }
@@ -93,9 +95,9 @@ a.home:visited {
 	font-family: 'Heebo', sans-serif;
 	font-style: bold;
 	line-height: 1 ;
-	position: absolute;
-	margin-top: 36.3%;
-	margin-left: 61%;
+	position: fixed;
+	margin-top: 6.2em;
+	margin-left: 65%;
 	height: 1em;
 	width: 5em;
 	overflow: hidden;
@@ -126,22 +128,57 @@ a.home:visited {
 .gallery {
 	position: relative;
 	height: 18em;
+	width: 18.5em;
 	margin-left: 4.5em;
 	margin-top: 8em;
+	
 }
+
+.gallery:hover {
+	background-size: 20em;
+	overflow: hidden;
+	animation-name: hover;
+	animation-duration: 1s;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in-out;
+	animation-fill-mode: forwards;
+	
+}
+
+@keyframes hover {
+	0% {background-size: 25em}
+	100% {background-size: 30em}
+}
+
 .project1 {
 	margin-top: 10em;
 	background-image:url(images/book.jpg);
 	background-repeat: no-repeat;
-	background-size:cover;
-	background-position: top;
+	background-size: cover;
+	background-position: center;
 }
+
 .project2 {
 	margin-top:10em;
 	background-image:url(images/handletter.jpg);
 	background-repeat: no-repeat;
 	background-size:cover;
 	background-position: center;
+}
+.project2:hover {
+	background-size: 20em;
+	overflow: hidden;
+	animation-name: hover2;
+	animation-duration: 1s;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in-out;
+	animation-fill-mode: forwards;
+	
+}
+
+@keyframes hover2 {
+	0% {background-size: 20em}
+	100% {background-size: 25em}
 }
 .project3 {
 	margin-top:10em;
@@ -156,11 +193,35 @@ a.home:visited {
 	background-size:cover;
 	background-position: center;
 }
+.project4:hover {
+	background-size: 20em;
+	overflow: hidden;
+	animation-name: hover2;
+	animation-duration: 1s;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in-out;
+	animation-fill-mode: forwards;
+	
+}
 .project5 {
 	background-image:url(images/rootsraices2.png);
 	background-repeat: no-repeat;
 	background-size:cover;
 	background-position: center;
+}
+.project5:hover {
+	background-size: 23em;
+	overflow: hidden;
+	animation-name: hover3;
+	animation-duration: 1s;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in-out;
+	animation-fill-mode: forwards;
+	
+}
+@keyframes hover3 {
+	0% {background-size: 23em}
+	100% {background-size: 26em}
 }
 
 .project6 {
@@ -191,17 +252,148 @@ a.home:visited {
 .footer {
 	margin-top: 9em;
 	padding-bottom: 2em;
-	margin-left: 19.5em;
+	text-align: center;
 	letter-spacing: .2em;
-	font-size: .8em;
-	font-family: 'Heebo', sans-serif;
+	font-size: .7em;
+	font-family: 'Sanchez', serif;
 	font-style: regular;
 }
 
 
 
+/*---------------- Project Pages --------------*/
 
+.project_title {
+	font-size: 340%;
+	font-family: 'Heebo', sans-serif;
+	font-style: bold;
+	line-height: 5% ;
+	margin: 3em 0em 0em .5em;
+}
 
+.project_subtitle {
+	font-size: 100%;
+	font-family: 'Heebo', sans-serif;
+	font-weight: 300;
+	font-style: italic;
+	line-height: 5% ;
+	margin: 3em 0em 4em 2em;
+}
+
+/*---memory---*/
+.memory_img1 {
+	background-image: url(images/book.jpg);
+	height: 40em;
+	background-size: cover;
+	background-position: top;
+}
+
+.memory_img2 {
+	background-image: url(images/memory4.jpg);
+	height: 40em;
+	background-size: cover;
+}
+
+.memory_img3 {
+	background-image: url(images/memory5.jpg);
+	height: 40em;
+	background-size: cover;
+}
+
+.memory_img4 {
+	background-image: url(images/aloe.jpg);
+	height: 30em;
+	width: 30em;
+	margin: 6em 1em 6.5em 6em;
+	background-size: cover;
+	background-position: right;
+	
+}
+.memory_text1 {
+	font-family: 'Heebo', sans-serif;
+	font-weight: 300;
+	font-size: 1.2em;
+	margin: 6em 0em 3em 8em
+}
+
+.memory_img5 {
+	background-image: url(images/memory3.jpg);
+	height: 20em;
+	margin: 11em 1em 11em 8em;
+	background-size: cover;
+	background-position: center;
+	
+}
+.memory_img6 {
+	background-image: url(images/memory1.jpg);
+	height: 20em;
+	margin: 11em 1em 11em 2em;
+	background-size: cover;
+	background-position: center;
+	
+}
+.memory_img7 {
+	background-image: url(images/memory2.jpg);
+	height: 20em;
+	margin: 11em 1em 12em 2em;
+	background-size: cover;
+	background-position: center;
+	
+}
+
+.memory_img8 {
+	background-image: url(images/plant2.JPG);
+	height: 22em;
+	margin: 11em 0em -2em 0em;
+	background-size: cover;
+	background-position: center;
+	
+}
+.memory_img9 {
+	background-image: url(images/portrait.JPG);
+	height: 22em;
+	margin: 11em 0em -2em 0em;
+	background-size: cover;
+	background-position: center;
+	
+}
+.memory_img10 {
+	background-image: url(images/portrait2.JPG);
+	height:22em;
+	margin: 11em 0em -2em 0em;
+	background-size: cover;
+	background-position: center;
+	
+}
+.memory_img11 {
+	background-image: url(images/memory6.jpg);
+	height: 22em;
+	margin: 2em 0em 12em 0em;
+	background-size: cover;
+	background-position: center;
+	
+}
+.memory_img12 {
+	background-image: url(images/memory7.jpg);
+	height: 22em;
+	margin: 2em 0em 12em 0em;
+	background-size: cover;
+	background-position: center;
+	
+}
+.memory_img13 {
+	background-image: url(images/memory8.jpg);
+	height: 22em;
+	margin: 2em 0em 12em 0em;
+	background-size: cover;
+	background-position: center;
+	
+}
+
+.parallax {
+
+	background-attachment: fixed;
+}
 
 /*---------------- Contact --------------*/
 .headshot {
