@@ -613,8 +613,9 @@ a.home:visited {
 	height: 30em;
 	width: 30em;
 	margin: 6em 1em 6.5em 6em;
-	background-size: cover;
+	background-size: 85%;
 	background-position: center;
+	background-repeat: no-repeat;
 	
 }
 .rootsraices_img5 {
