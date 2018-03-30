@@ -541,21 +541,18 @@ a.home:visited {
 	background-size: cover;
 	background-position: 0em -6em;
 }
-
 .typebook_img2 {
 	background-image: url(images/typebook.png);
 	height: 40em;
 	background-size: cover;
 	background-position: center;
 }
-
 .typebook_img3 {
 	background-image: url(images/typebook3.jpg);
 	height: 40em;
 	background-size: cover;
 	background-position: center;
 }
-
 .typebook_img4 {
 	background-image: url(images/typebook2.png);
 	height: 30em;
@@ -565,7 +562,6 @@ a.home:visited {
 	background-position: center;
 	
 }
-
 .typebook_img5 {
 	background-image: url(images/typebook5.jpg);
 	height: 20em;
@@ -591,6 +587,114 @@ a.home:visited {
 	
 }
 
+
+
+.rootsraices_img1 {
+	background-image: url(images/rootsraices6.png);
+	height: 40em;
+	background-size: cover;
+	background-position: 0em -6em;
+}
+.rootsraices_img2 {
+	background-image: url(images/rootsraices.png);
+	height: 40em;
+	background-size: 50%;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.rootsraices_img3 {
+	background-image: url(images/rootsraices7.png);
+	height: 40em;
+	background-size: cover;
+	background-position: center;
+}
+.rootsraices_img4 {
+	background-image: url(images/rootsraices8.gif);
+	height: 30em;
+	width: 30em;
+	margin: 6em 1em 6.5em 6em;
+	background-size: cover;
+	background-position: center;
+	
+}
+.rootsraices_img5 {
+	background-image: url(images/rootsraices5.png);
+	height: 20em;
+	margin: 11em 1em 11em 8em;
+	background-size: 120%;
+	background-position: -1.8em 2em ;
+	
+}
+.rootsraices_img6 {
+	background-image: url(images/rootsraices9.png);
+	height: 20em;
+	margin: 11em 1em 11em 2em;
+	background-size: cover;
+	background-position: right;
+	
+}
+.rootsraices_img7 {
+	background-image: url(images/rootsraices2.png);
+	height: 20em;
+	margin: 11em 1em 12em 2em;
+	background-size: cover;
+	background-position: center;
+	
+}
+
+
+.latinx_img1 {
+	background-image: url(images/latinxbook3.jpg);
+	height: 40em;
+	background-size: cover;
+	background-position: 0em -6em;
+}
+.latinx_img2 {
+	background-image: url(images/latinxbook2.jpg);
+	height: 40em;
+	background-size: cover;
+	background-position: top;
+	background-repeat: no-repeat;
+}
+.latinx_img3 {
+	background-image: url(images/latinxbook4.png);
+	height: 40em;
+	background-size: 150%;
+	background-position: left;
+}
+.latinx_img4 {
+	background-image: url(images/latinxbook.jpg);
+	height: 30em;
+	width: 30em;
+	margin: 6em 1em 6.5em 6em;
+	background-size: cover;
+	background-position: center;
+	
+}
+.latinx_img5 {
+	background-image: url(images/latinxbook5.jpg);
+	height: 20em;
+	margin: 11em 1em 11em 8em;
+	background-size: cover;
+	background-position: 0em -1em;
+	
+}
+.latinx_img6 {
+	background-image: url(images/rootsraices3.JPG);
+	height: 20em;
+	margin: 11em 1em 11em 2em;
+	background-size: 160%;
+	background-position: -9em -2.3em;
+	
+}
+.latinx_img7 {
+	background-image: url(images/latinxbook6.jpg);
+	height: 20em;
+	margin: 11em 1em 12em 2em;
+	background-size: cover;
+	background-position: left;
+	
+}
 
 /*---------------- Contact --------------*/
 .headshot {
