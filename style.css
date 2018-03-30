@@ -269,7 +269,7 @@ a.home:visited {
 	font-size: 340%;
 	font-family: 'Heebo', sans-serif;
 	font-style: bold;
-	line-height: 90% ;
+	line-height: 100% ;
 	margin: 3em 0em 0em .5em;
 }
 
@@ -462,6 +462,134 @@ a.home:visited {
 	
 }
 
+/*--------typeface1--------*/
+
+.typeface_text1 {
+	font-family: 'Heebo', sans-serif;
+	font-weight: 300;
+	font-size: 1.2em;
+	margin: 6em 0em 3em 8em;
+}
+
+.typeface_img1 {
+	background-image: url(images/typeface.jpg);
+	height: 40em;
+	background-size: cover;
+	background-position: 0em -6em;
+}
+
+.typeface_img2 {
+	background-image: url(images/typeface4.jpg);
+	height: 40em;
+	background-size: cover;
+	background-position: center;
+}
+
+.typeface_img3 {
+	background-image: url(images/typeface3.jpg);
+	height: 40em;
+	background-size: cover;
+	background-position: center;
+}
+
+.typeface_img4 {
+	background-image: url(images/typeface2.jpg);
+	height: 30em;
+	width: 30em;
+	margin: 6em 1em 6.5em 6em;
+	background-size: cover;
+	background-position: center;
+	
+}
+
+.typeface_img5 {
+	background-image: url(images/typeface6.jpg);
+	height: 20em;
+	margin: 11em 1em 11em 8em;
+	background-size: 100%;
+	background-position: center;
+	
+}
+.typeface_img6 {
+	background-image: url(images/typeface5.png);
+	height: 20em;
+	margin: 11em 1em 11em 2em;
+	background-size: cover;
+	background-position: center;
+	
+}
+.typeface_img7 {
+	background-image: url(images/typeface7.jpg);
+	height: 20em;
+	margin: 11em 1em 12em 2em;
+	background-size: cover;
+	background-position: center;
+	
+}
+
+
+.typebook_text1 {
+	font-family: 'Heebo', sans-serif;
+	font-weight: 300;
+	font-size: 1.2em;
+	margin: 6em 0em 3em 8em;
+}
+
+.typebook_img1 {
+	background-image: url(images/typebook4.jpg);
+	height: 40em;
+	background-size: cover;
+	background-position: 0em -6em;
+}
+
+.typebook_img2 {
+	background-image: url(images/typebook.png);
+	height: 40em;
+	background-size: cover;
+	background-position: center;
+}
+
+.typebook_img3 {
+	background-image: url(images/typebook3.jpg);
+	height: 40em;
+	background-size: cover;
+	background-position: center;
+}
+
+.typebook_img4 {
+	background-image: url(images/typebook2.png);
+	height: 30em;
+	width: 30em;
+	margin: 6em 1em 6.5em 6em;
+	background-size: cover;
+	background-position: center;
+	
+}
+
+.typebook_img5 {
+	background-image: url(images/typebook5.jpg);
+	height: 20em;
+	margin: 11em 1em 11em 8em;
+	background-size: cover;
+	background-position: left;
+	
+}
+.typebook_img6 {
+	background-image: url(images/typebook7.png);
+	height: 20em;
+	margin: 11em 1em 11em 2em;
+	background-size: cover;
+	background-position: right;
+	
+}
+.typebook_img7 {
+	background-image: url(images/typebook6.JPG);
+	height: 20em;
+	margin: 11em 1em 12em 2em;
+	background-size: cover;
+	background-position: right;
+	
+}
 
 
 /*---------------- Contact --------------*/
