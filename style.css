@@ -233,7 +233,7 @@ a.home:visited {
 }
 
 .project7 {
-	background-image:url(images/archer.png);
+	background-image:url(images/allaccess5.png);
 	background-repeat: no-repeat;
 	background-size:cover;
 	background-position: center;
@@ -694,6 +694,68 @@ a.home:visited {
 	margin: 11em 1em 12em 2em;
 	background-size: cover;
 	background-position: left;
+	
+}
+
+
+.allaccess_img1 {
+	background-image: url(images/allaccess.png);
+	height: 40em;
+	background-size: 45%;
+	background-position: 20em 10em;
+	background-repeat: no-repeat;
+	background-color: #44D3B8;
+	
+}
+.allaccess_img2 {
+	background-image: url(images/allaccess6-04.png);
+	height: 40em;
+	background-size: cover;
+	background-position: top;
+	background-repeat: no-repeat;
+}
+.allaccess_img3 {
+	background-image: url(images/);
+	height: 40em;
+	background-size: 150%;
+	background-position: left;
+	background-color: #FC411D;
+}
+.allaccess_img4 {
+	background-image: url(images/allaccess_record.gif);
+	height: 30em;
+	width: 30em;
+	margin: 6em 1em 6.5em 6em;
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+	
+}
+.allaccess_img5 {
+	background-image: url(images/allaccess10.png);
+	height: 20em;
+	margin: 11em 1em 11em 8em;
+	background-size: 90%;
+	background-repeat: no-repeat;
+	background-position: center;
+	
+}
+.allaccess_img6 {
+	background-image: url(images/allaccess8.png);
+	height: 20em;
+	margin: 11em 1em 11em 2em;
+	background-size: 90%;
+	background-repeat: no-repeat;
+	background-position: center;
+	
+}
+.allaccess_img7 {
+	background-image: url(images/allaccess9.png);
+	height: 20em;
+	margin: 11em 1em 12em 2em;
+	background-size: 90%;
+	background-repeat: no-repeat;
+	background-position: center;
 	
 }
 
