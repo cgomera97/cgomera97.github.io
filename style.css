@@ -59,6 +59,10 @@ a.home:visited {
 	margin-left: 16%;
 }
 
+#coral_text {
+	color: #FF9769;
+}
+
 
 
 
@@ -157,6 +161,116 @@ a.home:visited {
 	background-size: cover;
 	background-position: center;
 }
+.project_text {
+	font-family: 'Heebo', sans-serif;
+	font-style: bold;
+	line-height: 5% ;
+	font-size: 3em;
+	text-align: right;
+	margin-top: -.03em;
+	padding: 4em 0.5em 2em 1em;
+	color: black;
+	background-color: #FF9769;
+	background-size: cover;
+	opacity: 0;
+}
+	.project_text:hover {
+	animation-name: text;
+	animation-duration: .5s;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in-out;
+	animation-fill-mode: forwards;
+	}
+
+.project_text2 {
+	font-family: 'Heebo', sans-serif;
+	font-style: bold;
+	line-height: 100% ;
+	font-size: 3em;
+	text-align: right;
+	margin-top: -.03em;
+	padding: 3em .4em 3em 1em;
+	color: black;
+	background-color: white;
+	background-size: cover;
+	opacity: 0;
+}
+	.project_text2:hover {
+	animation-name: text;
+	animation-duration: .5s;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in-out;
+	animation-fill-mode: forwards;
+	}
+.project_text3 {
+	font-family: 'Heebo', sans-serif;
+	font-style: bold;
+	line-height: 5% ;
+	text-align: right;
+	font-size: 3em;
+	margin: 0em 0em 0em 0em;
+	padding: 4em .5em 2em 2em;
+	color: white;
+	background-color: black;
+	background-size: cover;
+	opacity: 0;
+}
+	.project_text3:hover {
+	animation-name: text;
+	animation-duration: .5s;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in-out;
+	animation-fill-mode: forwards;
+	}
+.project_text4 {
+	font-family: 'Heebo', sans-serif;
+	font-style: bold;
+	line-height: 100% ;
+	font-size: 2.5em;
+	text-align: right;
+	margin-top: -.03em;
+	padding: 4.9em .5em 1.05em 1.5em;
+	color: white;
+	background-color: black;
+	background-size: cover;
+	opacity: 0;
+}
+	.project_text4:hover {
+	animation-name: text;
+	animation-duration: .5s;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in-out;
+	animation-fill-mode: forwards;
+	}
+.project_text5 {
+	font-family: 'Heebo', sans-serif;
+	font-style: bold;
+	line-height: 100% ;
+	font-size: 3em;
+	text-align: right;
+	margin-top: -.03em;
+	padding: 3em .4em 3em 1em;
+	color: black;
+	background-color: white;
+	background-size: cover;
+	opacity: 0;
+}
+	.project_text5:hover {
+	animation-name: text2;
+	animation-duration: .5s;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in-out;
+	animation-fill-mode: forwards;
+	}
+
+@keyframes text {
+		0% {opacity: 0}
+		100% {opacity: 0.3}
+}
+@keyframes text2 {
+		0% {opacity: 0}
+		100% {opacity: 0.6}
+}
 
 .project2 {
 	margin-top:10em;
@@ -233,7 +347,7 @@ a.home:visited {
 }
 
 .project7 {
-	background-image:url(images/allaccess5.png);
+	background-image:url(images/allaccess6-04.png);
 	background-repeat: no-repeat;
 	background-size:cover;
 	background-position: center;
@@ -241,10 +355,10 @@ a.home:visited {
 
 }
 .project8 {
-	background-image:url(images/accordionbook.png);
+	background-image:url(images/hexbox14.jpg);
 	background-repeat: no-repeat;
 	background-size:cover;
-	background-position: left;
+	background-position: center;
 
 }
 
@@ -532,7 +646,7 @@ a.home:visited {
 	font-family: 'Heebo', sans-serif;
 	font-weight: 300;
 	font-size: 1.2em;
-	margin: 6em 0em 3em 8em;
+	margin: 6em 0em 7em 8em;
 }
 
 .typebook_img1 {
@@ -702,7 +816,7 @@ a.home:visited {
 	background-image: url(images/allaccess.png);
 	height: 40em;
 	background-size: 45%;
-	background-position: 24em 10em;
+	background-position: 22em 10em;
 	background-repeat: no-repeat;
 	background-color: #44D3B8;
 	
@@ -715,11 +829,10 @@ a.home:visited {
 	background-repeat: no-repeat;
 }
 .allaccess_img3 {
-	background-image: url(images/);
+	background-image: url(images/allaccess11.png);
 	height: 40em;
-	background-size: 150%;
+	background-size: cover;
 	background-position: left;
-	background-color: #FC411D;
 }
 .allaccess_img4 {
 	background-image: url(images/allaccess_record.gif);
@@ -758,6 +871,119 @@ a.home:visited {
 	background-position: center;
 	
 }
+
+
+.hexbox_text1 {
+	font-family: 'Heebo', sans-serif;
+	font-weight: 300;
+	font-size: 1.2em;
+	margin: 6em 0em 3em 8em
+}
+
+.hexbox_img1 {
+	background-image: url(images/hexbox3.jpg);
+	height: 40em;
+	background-size: cover;
+	background-position: 0em 1em;
+}
+
+.hexbox_img2 {
+	background-image: url(images/hexbox4.jpg);
+	height: 40em;
+	background-size: cover;
+}
+
+.hexbox_img3 {
+	background-image: url(images/hexbox12.png);
+	height: 40em;
+	background-size: cover;
+	background-position: center;
+}
+
+.hexbox_img4 {
+	background-image: url(images/hexbox9.png);
+	height: 30em;
+	width: 30em;
+	margin: 6em 1em 6.5em 6em;
+	background-size: cover;
+	background-position: right;
+	
+}
+
+.hexbox_img5 {
+	background-image: url(images/hexbox5.jpg);
+	height: 20em;
+	margin: 11em 1em 11em 8em;
+	background-size: cover;
+	background-position: center;
+	
+}
+.hexbox_img6 {
+	background-image: url(images/hexbox6.jpg);
+	height: 20em;
+	margin: 11em 1em 11em 2em;
+	background-size: cover;
+	background-position: center;
+	
+}
+.hexbox_img7 {
+	background-image: url(images/hexbox7.jpg);
+	height: 20em;
+	margin: 11em 1em 12em 2em;
+	background-size: cover;
+	background-position: center;
+	
+}
+
+.hexbox_img8 {
+	background-image: url(images/hexbox10.png);
+	height: 22em;
+	margin: 11em 0em -2em 0em;
+	background-size: cover;
+	background-position: top;
+	
+}
+.hexbox_img9 {
+	background-image: url(images/hexbox11.png);
+	height: 22em;
+	margin: 11em 0em -2em 0em;
+	background-size: cover;
+	background-position: center;
+	
+}
+.hexbox_img10 {
+	background-image: url(images/hexbox2.jpg);
+	height:22em;
+	margin: 11em 0em -2em 0em;
+	background-size: cover;
+	background-position: center;
+	
+}
+.hexbox_img11 {
+	background-image: url(images/hexbox1.jpg);
+	height: 22em;
+	margin: 2em 0em 12em 0em;
+	background-size: cover;
+	background-position: center;
+	
+}
+.hexbox_img12 {
+	background-image: url(images/hexbox8.png);
+	height: 22em;
+	margin: 2em 0em 12em 0em;
+	background-size: cover;
+	background-position: center;
+	
+}
+.hexbox_img13 {
+	background-image: url(images/hexbox13.png);
+	height: 22em;
+	margin: 2em 0em 12em 0em;
+	background-size: cover;
+	background-position: center;
+	
+}
+
 
 /*---------------- Contact --------------*/
 .headshot {
