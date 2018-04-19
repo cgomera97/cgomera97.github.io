@@ -229,11 +229,11 @@ a.home:visited {
 	font-size: 2.5em;
 	text-align: right;
 	margin-top: -.03em;
-	padding: 4.9em .5em 1.05em 1.5em;
+	padding: 4.9em .5em 1.05em 2em;
 	color: white;
 	background-color: black;
 	background-size: cover;
-	opacity: 0;
+	opacity: 0.3;
 }
 	.project_text4:hover {
 	animation-name: text;
