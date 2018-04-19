@@ -233,7 +233,7 @@ a.home:visited {
 	color: white;
 	background-color: black;
 	background-size: cover;
-	opacity: 0.3;
+	opacity: 0;
 }
 	.project_text4:hover {
 	animation-name: text;
