@@ -131,7 +131,27 @@ a:hover {
 	100% {margin-top:-.54%;}
 }
 
-
+.my_work {
+	margin-top: 28em;
+	margin-left: 50em;
+	position: fixed;
+	margin-left: 55%;
+	height: 4.2em;
+	width: 3em;
+	background-color:#ACD6D6;
+}
+.myworktxt {
+	font-size: 200%;
+	font-family: 'Sanchez', serif;
+	font-style: bold;
+	color:ghostwhite;
+	line-height: 1;
+	margin-top: -0.1%;
+	padding-top: .4em;
+	padding-left: 4em;
+	height: 1em;
+	width: 9em;
+}
 
 
 
@@ -393,6 +413,15 @@ a:hover {
 
 .footer {
 	margin-top: 9em;
+	padding-bottom: 2em;
+	text-align: center;
+	letter-spacing: .2em;
+	font-size: .7em;
+	font-family: 'Sanchez', serif;
+	font-style: regular;
+}
+.footer2 {
+	margin-top: 74em;
 	padding-bottom: 2em;
 	text-align: center;
 	letter-spacing: .2em;
