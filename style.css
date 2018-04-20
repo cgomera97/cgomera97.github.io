@@ -10,6 +10,13 @@ html {
 *, :before, :after {
   box-sizing: inherit; 
 }
+.header {
+	font-family: 'Heebo', sans-serif;
+	font-weight: bold;
+	font-size: 2em;
+	letter-spacing: .1em;
+
+}
 
 a:link {
 	color: ghostwhite;
@@ -47,10 +54,7 @@ a:hover {
 .home {
 	margin-left: 0%;
 }
-a.home:visited {
-	color:deepskyblue;
-	text-decoration: underline;
-}
+
 
 .project {
 	margin-left: 15%;
@@ -61,6 +65,10 @@ a.home:visited {
 
 #coral_text {
 	color: #FF9769;
+}
+
+#gray_text {
+	color: #9B9B9B;
 }
 
 
@@ -139,7 +147,7 @@ a.home:visited {
 }
 
 .gallery:hover {
-	background-size: 20em;
+	background-size: 25em;
 	overflow: hidden;
 	animation-name: hover;
 	animation-duration: 1s;
@@ -362,6 +370,26 @@ a.home:visited {
 
 }
 
+.motion_proj {
+	background-image: url(images/motion1.png);
+	background-size: cover;
+	background-position: center;
+}
+.motion_proj:hover {
+	background-size: 23em;
+	overflow: hidden;
+	animation-name: hover4;
+	animation-duration: 1s;
+	animation-iteration-count:infinite;
+	animation-timing-function: ease-in-out;
+	animation-fill-mode: forwards;
+	
+}
+@keyframes hover4 {
+	0% {background-size: 18em}
+	50% {background-size: 24em}
+	100% {background-size: 18em}
+}
 
 .footer {
 	margin-top: 9em;
@@ -392,7 +420,7 @@ a.home:visited {
 	font-family: 'Heebo', sans-serif;
 	font-weight: 300;
 	font-style: italic;
-	line-height: 5% ;
+	line-height: 140% ;
 	margin: 3em 0em 4em 2em;
 }
 
@@ -978,12 +1006,23 @@ a.home:visited {
 .hexbox_img13 {
 	background-image: url(images/hexbox13.png);
 	height: 22em;
-	margin: 2em 0em 12em 0em;
+	padding: 2em 0em 12em 0em;
 	background-size: cover;
 	background-position: center;
 	
 }
 
+
+/*---------------- Motion --------------*/
+.video {
+	width: 40em;
+	margin-top: 10em;
+	position: relative;
+  border-radius: 2em;
+	height: 22.4em;
+	overflow: hidden;
+	align-items: left;
+}
 
 /*---------------- Contact --------------*/
 .headshot {
