@@ -153,9 +153,17 @@ a:hover {
 	width: 9em;
 }
 
+.my_work:hover {
+	animation-name: mywork;
+	animation-duration: 1s;
+	animation-timing-function: ease-in-out;
+	animation-fill-mode: forwards;
+}
 
-
-
+@keyframes mywork {
+	0%   {margin-left:55%;}
+	100% {margin-left:60%;}
+}
 /*---------------- Projects --------------*/
 .gallery {
 	position: relative;
