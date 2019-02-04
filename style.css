@@ -452,7 +452,7 @@ a:hover {
 }
 .project11:hover {
 	overflow: hidden;
-	animation-name: hover3;
+	animation-name: hover2;
 	animation-duration: 1s;
 	animation-iteration-count: 1;
 	animation-timing-function: ease-in-out;
