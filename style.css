@@ -36,10 +36,10 @@ a:hover {
 	z-index: 1;
 	width: 101%;
 	font-family: 'Sanchez', serif;
-	font-size: 2.3vw;
+	font-size: 2.4vw;
 	margin-left: -1%;
-	margin-top: -.8em;
-	padding-top: 1em;
+	margin-top: -.9em;
+	padding-top: 1.5em;
 	padding-bottom: 1em;
 	border-bottom: .03px solid ghostwhite;
 }
@@ -52,7 +52,9 @@ a:hover {
 }
 @media screen and (min-width: 600px) {
 	.title {
-		font-size: 100%;}
+		font-size: 100%;
+		padding-top: 1em;
+	}
 }
 
 .home {
@@ -199,14 +201,24 @@ a:hover {
 	position:relative;
 	height: 20em;
 	width: 20em;
-	margin-left: 4.5em;
-	margin-top: 8em;
+	margin-left: 12%;
+	margin-top: 4em;
 	
 }
 @media screen and (min-width: 600px){
 	.gallery{
+	height: 25vw;
+	width: 20vw;
+	margin-left: 4.5em;
+	margin-top: 4em;
+	}
+}
+@media screen and (min-width: 900px){
+	.gallery{
 	height: 18em;
 	width: 20em;
+	margin-left: 4.5em;
+	margin-top: 8em;
 	}
 }
 
@@ -227,153 +239,26 @@ a:hover {
 }
 
 .project1 {
-	margin-top: 10em;
+	margin-top: 4em;
 	background-image:url(images/book.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
 }
-.project_text {
-	font-family: 'Heebo', sans-serif;
-	font-style: bold;
-	line-height: 5% ;
-	font-size: 3em;
-	text-align: right;
-	margin-top: -.03em;
-	padding: 4.7em 0.5em 2em 1em;
-	color: black;
-	background-color: #FF9769;
-	background-size: cover;
-	opacity: 0;
-}
-@media screen and (min-width: 600px){
-	.project_text{
-		padding: 4em 0.5em 2em 1em;}
-}
-	.project_text:hover {
-	animation-name: text;
-	animation-duration: .5s;
-	animation-iteration-count: 1;
-	animation-timing-function: ease-in-out;
-	animation-fill-mode: forwards;
+@media screen and (min-width: 900px){
+	.project1 {
+		margin-top:10em;
 	}
-
-.project_text2 {
-	font-family: 'Heebo', sans-serif;
-	font-style: bold;
-	line-height: 100% ;
-	font-size: 3em;
-	text-align: right;
-	margin-top: -.03em;
-	padding: 3.7em 0.4em 2em 1em;
-	color: black;
-	background-color: white;
-	background-size: cover;
-	opacity: 0;
-}
-@media screen and (min-width: 600px){
-	.project_text2{
-		padding: 3em 0.4em 2em 1em;}
-}
-	.project_text2:hover {
-	animation-name: text;
-	animation-duration: .5s;
-	animation-iteration-count: 1;
-	animation-timing-function: ease-in-out;
-	animation-fill-mode: forwards;
-	}
-.project_text3 {
-	font-family: 'Heebo', sans-serif;
-	font-style: bold;
-	line-height: 5% ;
-	text-align: right;
-	font-size: 3em;
-	margin: 0em 0em 0em 0em;
-	padding: 4.6em .5em 2em 2em;
-	color: white;
-	background-color: black;
-	background-size: cover;
-	opacity: 0;
-}
-@media screen and (min-width: 600px){
-	.project_text3 {
-		padding: 4em .5em 2em 2em;
-	}
-}
-	.project_text3:hover {
-	animation-name: text;
-	animation-duration: .5s;
-	animation-iteration-count: 1;
-	animation-timing-function: ease-in-out;
-	animation-fill-mode: forwards;
-	}
-.project_text4 {
-	font-family: 'Heebo', sans-serif;
-	font-style: bold;
-	line-height: 100% ;
-	font-size: 3em;
-	text-align: right;
-	margin-top: -.03em;
-	padding: 3.7em .4em 1em 1em;
-	color: white;
-	background-color: black;
-	background-size: cover;
-	opacity: 0;
-}
-@media screen and (min-width: 600px){
-	.project_text4 {
-		padding: 3.05em .4em 1em 1em;
-	}
-}
-	.project_text4:hover {
-	animation-name: text;
-	animation-duration: .5s;
-	animation-iteration-count: 1;
-	animation-timing-function: ease-in-out;
-	animation-fill-mode: forwards;
-	}
-.project_text5 {
-	font-family: 'Heebo', sans-serif;
-	font-style: bold;
-	line-height: 100% ;
-	font-size: 3em;
-	text-align: right;
-	margin-top: -.03em;
-	padding: 3.7em .4em 1em 1em;
-	color: black;
-	background-color: white;
-	background-size: cover;
-	opacity: 0;
-}
-@media screen and (min-width: 600px){
-	.project_text5 {
-		padding: 3.05em .4em 1em 1em;
-	}
-}
-	.project_text5:hover {
-	animation-name: text2;
-	animation-duration: .5s;
-	animation-iteration-count: 1;
-	animation-timing-function: ease-in-out;
-	animation-fill-mode: forwards;
-	}
-
-@keyframes text {
-		0% {opacity: 0}
-		100% {opacity: 0.3}
-}
-@keyframes text2 {
-		0% {opacity: 0}
-		100% {opacity: 0.6}
 }
 
 .project2 {
-
+	margin-top: ;
 	background-image:url(images/handletter.jpg);
 	background-repeat: no-repeat;
 	background-size:cover;
 	background-position: center;
 }
+
 .project2:hover {
 	background-size: 20em;
 	overflow: hidden;
@@ -390,18 +275,28 @@ a:hover {
 	100% {background-size: 25em}
 }
 .project3 {
-	margin-top:10em;
+	margin-top:4em;
 	background-image:url(images/typeface.jpg);
 	background-repeat: no-repeat;
 	background-size:cover;
 	background-position: center;
 }
+@media screen and (min-width: 900px){
+	.project3 {
+		margin-top:10em;
+	}
+}
 .project4 {
-	margin-top:10em;
+	margin-top:4em;
 	background-image:url(images/letterpress1-1.png);
 	background-repeat: no-repeat;
 	background-size:cover;
 	background-position: center;
+}
+@media screen and (min-width: 900px){
+	.project4 {
+		margin-top:10em;
+	}
 }
 
 .project4:hover {
@@ -518,6 +413,165 @@ a:hover {
 	animation-fill-mode: forwards;
 	
 }
+.project_text {
+	font-family: 'Heebo', sans-serif;
+	font-style: bold;
+	line-height: 5% ;
+	font-size: 3em;
+	text-align: right;
+	margin-top: -.03em;
+	padding: 4.7em 0.5em 2em 1em;
+	color: black;
+	background-color: #FF9769;
+	background-size: cover;
+	opacity: 0;
+}
+@media screen and (min-width: 600px){
+	.project_text {
+		padding: 1.8em 0.4em 2em 2em;
+	}
+}
+@media screen and (min-width: 900px){
+	.project_text{
+		padding: 4em 0.5em 2em 1em;}
+}
+	.project_text:hover {
+	animation-name: text;
+	animation-duration: .5s;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in-out;
+	animation-fill-mode: forwards;
+	}
+
+.project_text2 {
+	font-family: 'Heebo', sans-serif;
+	font-style: bold;
+	line-height: 100% ;
+	font-size: 3em;
+	text-align: right;
+	margin-top: -.03em;
+	padding: 3.7em 0.4em 2em 1em;
+	color: black;
+	background-color: white;
+	background-size: cover;
+	opacity: 0;
+}
+@media screen and (min-width: 600px){
+	.project_text2 {
+		padding: 0.8em 0.4em 2em 2em;
+	}
+}
+@media screen and (min-width: 900px){
+	.project_text2{
+		padding: 3em 0.4em 2em 1em;}
+}
+	.project_text2:hover {
+	animation-name: text;
+	animation-duration: .5s;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in-out;
+	animation-fill-mode: forwards;
+	}
+.project_text3 {
+	font-family: 'Heebo', sans-serif;
+	font-style: bold;
+	line-height: 5% ;
+	text-align: right;
+	font-size: 3em;
+	margin: 0em 0em 0em 0em;
+	padding: 4.6em .5em 2em 2em;
+	color: white;
+	background-color: black;
+	background-size: cover;
+	opacity: 0;
+}
+@media screen and (min-width: 600px){
+	.project_text3 {
+		padding: 1.7em .5em 2em 2em;
+	}
+}
+@media screen and (min-width: 900px){
+	.project_text3 {
+		padding: 4em .5em 2em 2em;
+	}
+}
+	.project_text3:hover {
+	animation-name: text;
+	animation-duration: .5s;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in-out;
+	animation-fill-mode: forwards;
+	}
+.project_text4 {
+	font-family: 'Heebo', sans-serif;
+	font-style: bold;
+	line-height: 100% ;
+	font-size: 3em;
+	text-align: right;
+	margin-top: -.03em;
+	padding: 3.7em .4em 1em 1em;
+	color: white;
+	background-color: black;
+	background-size: cover;
+	opacity: 0;
+}
+@media screen and (min-width: 600px){
+	.project_text4 {
+		padding: 0em .5em 1.8em 2em;
+	}
+}
+@media screen and (min-width: 900px){
+	.project_text4 {
+		padding: 3.05em .4em 1em 1em;
+	}
+}
+	.project_text4:hover {
+	animation-name: text;
+	animation-duration: .5s;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in-out;
+	animation-fill-mode: forwards;
+	}
+.project_text5 {
+	font-family: 'Heebo', sans-serif;
+	font-style: bold;
+	line-height: 100% ;
+	font-size: 3em;
+	text-align: right;
+	margin-top: -.03em;
+	padding: 3.7em .4em 1em 1em;
+	color: black;
+	background-color: white;
+	background-size: cover;
+	opacity: 0;
+}
+@media screen and (min-width: 600px){
+	.project_text5 {
+		padding: 0em 0.4em 1.8em 2em;
+	}
+}
+@media screen and (min-width: 900px){
+	.project_text5 {
+		padding: 3.05em .4em 1em 1em;
+	}
+}
+	.project_text5:hover {
+	animation-name: text2;
+	animation-duration: .5s;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in-out;
+	animation-fill-mode: forwards;
+	}
+
+@keyframes text {
+		0% {opacity: 0}
+		100% {opacity: 0.3}
+}
+@keyframes text2 {
+		0% {opacity: 0}
+		100% {opacity: 0.6}
+}
+
 
 .motion_proj {
 	background-image: url(images/motion1.png);
@@ -1424,29 +1478,53 @@ a:hover {
 
 /*---------------- Contact --------------*/
 .headshot {
-	margin-top: 15em;
-	margin-bottom:5em;
-	height: 25em;
+	margin-top: 40vw;
+	padding-right: 30vw;
+	margin-bottom: 0vw;
+	width: 80vw;
+	height: 20vw;
 	background-image:url(images/headshot.JPG);
-	background-repeat: no-repeat;
-	background-size:cover;
+	background-size: contain;
 	background-position: center;
-	transform: rotate(270deg);
+	background-repeat: no-repeat;
 	position: relative;
 	z-index: -1;
+
+}
+@media screen and (min-width: 900px){
+	.headshot {
+	margin-top: 10vw;
+	padding-right: 30vw;
+	margin-bottom: 15vw;
+	width: 80vw;
+	height: 20vw;
+	background-image:url(images/headshot.JPG);
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+	position: relative;
+	z-index: -1;}
 }
 .rotate {
 	transform: rotate(270deg);
 }
 .contact_info {
-	margin-top: 9em;
-	margin-left: -2em;
-	font-size: 200%;
+	padding-top: 15vw;
+	padding-left: 45vw;
+	font-size: 1.0em;
 	font-family: 'Heebo', sans-serif;
 	font-style: bold;
 	line-height: 130% ;
 	z-index: 1;
+	position: fixed;
 }
+@media screen and (min-width: 900px){
+	.contact_info {
+		font-size:2.5vw;
+		padding-left: 45vw;
+	}
+}
+
 
 /*<<<-----------GRID TEMPLATE------------>>>-*/
 
@@ -1485,7 +1563,7 @@ a:hover {
 /*-- columns with different widths --*/
 .col-1{ width: 8.333333%; }
 .col-2{ width: 16.666666%; }
-.col-3{ width: 66%;  }
+.col-3{ width: 80%;  }
 .col-4{ width: 33.333333%; }
 .col-5{ width: 41.666667%; }
 .col-6{ width: 50%; }
@@ -1497,6 +1575,9 @@ a:hover {
 .col-12{ width: 100%;   }
 
 @media screen and (min-width: 600px){
+	.col-3{ width: 80%;  }
+}
+@media screen and (min-width: 900px){
 	.col-3{ width: 25%;  }
 }
 
