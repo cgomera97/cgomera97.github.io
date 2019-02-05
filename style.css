@@ -1478,7 +1478,7 @@ a:hover {
 
 /*---------------- Contact --------------*/
 .headshot {
-	margin-top: 40vw;
+	margin-top: 50vw;
 	padding-right: 30vw;
 	margin-bottom: 0vw;
 	width: 80vw;
@@ -1510,7 +1510,7 @@ a:hover {
 }
 .contact_info {
 	padding-top: 15vw;
-	padding-left: 45vw;
+	padding-left: 25vw;
 	font-size: 1.0em;
 	font-family: 'Heebo', sans-serif;
 	font-style: bold;
