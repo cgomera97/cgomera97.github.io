@@ -111,6 +111,7 @@ a:hover {
 	width: 35em;
 	margin-top: 2.9%;
 	margin-left: -1%;
+	z-index: 0;
 	background-image:url(images/letterpress1.JPG);
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -664,6 +665,7 @@ a:hover {
 	height: 70vw;
 	margin: 30vw 0vw;
 	background-size: 110%;
+	background-repeat: no-repeat;
 	background-position: center;
 	background-attachment: scroll;
 }
@@ -671,7 +673,7 @@ a:hover {
 	.memory_img1 {
 		height: 80vw;
 		margin: 0vw;
-		background-size: cover;
+		background-size: 100vw;
 		background-attachment: fixed;
 		}
 }
@@ -688,7 +690,7 @@ a:hover {
 	.memory_img2 {
 		height: 80vw;
 		margin: 0vw;
-		background-size: cover;
+		background-size: 100vw;
 		background-attachment: fixed;}
 }
 
@@ -703,7 +705,7 @@ a:hover {
 @media screen and (min-width: 900px){
 	.memory_img3 {
 		height: 80vw;
-		background-size: cover;
+		background-size: 100vw;
 		background-attachment: fixed;}
 }
 
