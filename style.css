@@ -19,6 +19,26 @@ html {
 
 }
 
+.footer {
+	z-index: 1 !important;
+	margin-top: 9em;
+	padding-bottom: 2em;
+	text-align: center;
+	letter-spacing: .1em;
+	font-size: .7em;
+	font-family: 'Sanchez', serif;
+	font-style: regular;
+}
+.footer2 {
+	margin-top: 74em;
+	padding-bottom: 2em;
+	text-align: center;
+	letter-spacing: .1em;
+	font-size: .7em;
+	font-family: 'Sanchez', serif;
+	font-style: regular;
+}
+
 a:link {
 	color: ghostwhite;
 	text-decoration: none;
@@ -595,25 +615,6 @@ a:hover {
 	100% {background-size: 18em}
 }
 
-.footer {
-	margin-top: 9em;
-	padding-bottom: 2em;
-	text-align: center;
-	letter-spacing: .1em;
-	font-size: .7em;
-	font-family: 'Sanchez', serif;
-	font-style: regular;
-}
-.footer2 {
-	margin-top: 74em;
-	padding-bottom: 2em;
-	text-align: center;
-	letter-spacing: .1em;
-	font-size: .7em;
-	font-family: 'Sanchez', serif;
-	font-style: regular;
-}
-
 
 
 
@@ -664,12 +665,14 @@ a:hover {
 	margin: 30vw 0vw;
 	background-size: 110%;
 	background-position: center;
+	background-attachment: scroll;
 }
 @media screen and (min-width: 600px){
 	.memory_img1 {
 		height: 80vw;
 		margin: 0vw;
 		background-size: cover;
+		background-attachment: fixed;
 		}
 }
 
@@ -677,25 +680,31 @@ a:hover {
 	background-image: url(images/memory4.jpg);
 	height: 70vw;
 	background-size: 110%;
-
+	margin: 30vw 0vw;
 	background-position: center;
+	background-attachment: scroll;
 }
-@media screen and (min-width: 600px){
+@media screen and (min-width: 900px){
 	.memory_img2 {
 		height: 80vw;
-		background-size: cover;}
+		margin: 0vw;
+		background-size: cover;
+		background-attachment: fixed;}
 }
 
 .memory_img3 {
 	background-image: url(images/memory5.jpg);
 	height: 70vw;
 	background-size: 110%;
+	margin: 30vw 0vw;
 	background-position: center;
+	background-attachment: scroll;
 }
-@media screen and (min-width: 600px){
+@media screen and (min-width: 900px){
 	.memory_img3 {
 		height: 80vw;
-		background-size: cover;}
+		background-size: cover;
+		background-attachment: fixed;}
 }
 
 .memory_img4 {
@@ -707,7 +716,7 @@ a:hover {
 	background-position: right;
 	background-repeat: no-repeat;
 }
-@media screen and (min-width: 600px){
+@media screen and (min-width: 900px){
 	.memory_img4 {
 	height: 30em;
 	width: 30em;
@@ -745,7 +754,7 @@ a:hover {
 @media screen and (min-width: 600px){
 	.memory_img6 {
 	height: 20em;
-	margin: 11em 1em 11em 8em;
+	margin: 11em 1em 11em 0em;
 	background-size: cover;
 	background-position: center;}
 }
@@ -762,7 +771,7 @@ a:hover {
 @media screen and (min-width: 600px){
 	.memory_img7 {
 	height: 20em;
-	margin: 11em 1em 11em 8em;
+	margin: 11em 1em 11em 0em;
 	background-size: cover;
 	background-position: center;}
 }
