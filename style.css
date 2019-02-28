@@ -674,6 +674,7 @@ a:hover {
 		height: 80vw;
 		margin: 0vw;
 		background-size: 100vw;
+		background-position: top;
 		background-attachment: fixed;
 		}
 }
@@ -687,11 +688,12 @@ a:hover {
 	background-attachment: scroll;
 	background-repeat: no-repeat;
 }
-@media screen and (min-width: 900px){
+@media screen and (min-width: 600px){
 	.memory_img2 {
 		height: 80vw;
 		margin: 0vw;
 		background-size: 100vw;
+		background-position: top;
 		background-attachment: fixed;}
 }
 
@@ -704,10 +706,11 @@ a:hover {
 	background-attachment: scroll;
 	background-repeat: no-repeat;
 }
-@media screen and (min-width: 900px){
+@media screen and (min-width: 600px){
 	.memory_img3 {
 		height: 80vw;
 		background-size: 100vw;
+		background-position: top;
 		background-attachment: fixed;}
 }
 
