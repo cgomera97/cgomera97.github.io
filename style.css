@@ -685,6 +685,7 @@ a:hover {
 	margin: 30vw 0vw;
 	background-position: center;
 	background-attachment: scroll;
+	background-repeat: no-repeat;
 }
 @media screen and (min-width: 900px){
 	.memory_img2 {
@@ -701,6 +702,7 @@ a:hover {
 	margin: 30vw 0vw;
 	background-position: center;
 	background-attachment: scroll;
+	background-repeat: no-repeat;
 }
 @media screen and (min-width: 900px){
 	.memory_img3 {
