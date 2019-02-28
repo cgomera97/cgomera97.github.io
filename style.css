@@ -674,7 +674,6 @@ a:hover {
 		height: 80vw;
 		margin: 0vw;
 		background-size: 100vw;
-		background-position: top;
 		background-attachment: fixed;
 		}
 }
@@ -693,7 +692,6 @@ a:hover {
 		height: 80vw;
 		margin: 0vw;
 		background-size: 100vw;
-		background-position: top;
 		background-attachment: fixed;}
 }
 
@@ -710,7 +708,7 @@ a:hover {
 	.memory_img3 {
 		height: 80vw;
 		background-size: 100vw;
-		background-position: top;
+
 		background-attachment: fixed;}
 }
 
