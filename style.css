@@ -11,16 +11,9 @@ html {
 *, :before, :after {
   box-sizing: inherit; 
 }
-.header {
-	font-family: 'Heebo', sans-serif;
-	font-weight: bold;
-	font-size: 2em;
-	letter-spacing: .1em;
 
-}
 
 .footer {
-	z-index: 1 !important;
 	margin-top: 9em;
 	padding-bottom: 2em;
 	text-align: center;
@@ -30,13 +23,30 @@ html {
 	font-style: regular;
 }
 .footer2 {
-	margin-top: 74em;
+	z-index: 100 !important;
+	margin-top: 130vw;
 	padding-bottom: 2em;
 	text-align: center;
 	letter-spacing: .1em;
 	font-size: .7em;
 	font-family: 'Sanchez', serif;
 	font-style: regular;
+	position: relative;
+}
+@media screen and (min-width: 600px) {
+	.footer2 {
+		margin-top: 100vw;
+	}
+}
+@media screen and (min-width: 700px) {
+	.footer2 {
+		margin-top: 85vw;
+	}
+}
+@media screen and (min-width: 900px) {
+	.footer2 {
+		margin-top: 70vw;
+	}
 }
 
 a:link {
@@ -73,6 +83,12 @@ a:hover {
 }
 @media screen and (min-width: 600px) {
 	.title {
+		font-size: 100%;
+		padding-top: 1em;
+	}
+}
+@media screen and (min-width: 600px) {
+	.title3 {
 		font-size: 100%;
 		padding-top: 1em;
 	}
@@ -180,6 +196,7 @@ a:hover {
 	margin-left: 50vw;
 	height: 10vw;
 	width: 3em;
+	
 	background-color:#ACD6D6;
 }
 @media screen and (min-width: 600px){
@@ -669,7 +686,7 @@ a:hover {
 	background-position: center;
 	background-attachment: scroll;
 }
-@media screen and (min-width: 600px){
+@media screen and (min-width: 900px){
 	.memory_img1 {
 		height: 80vw;
 		margin: 0vw;
@@ -687,7 +704,7 @@ a:hover {
 	background-attachment: scroll;
 	background-repeat: no-repeat;
 }
-@media screen and (min-width: 600px){
+@media screen and (min-width: 900px){
 	.memory_img2 {
 		height: 80vw;
 		margin: 0vw;
@@ -704,11 +721,11 @@ a:hover {
 	background-attachment: scroll;
 	background-repeat: no-repeat;
 }
-@media screen and (min-width: 600px){
+@media screen and (min-width: 900px){
 	.memory_img3 {
 		height: 80vw;
 		background-size: 100vw;
-
+		margin: 0vw;
 		background-attachment: fixed;}
 }
 
@@ -739,7 +756,7 @@ a:hover {
 	background-position: center;
 	
 }
-@media screen and (min-width: 600px){
+@media screen and (min-width: 900px){
 	.memory_img5 {
 	height: 20em;
 	margin: 11em 1em 11em 8em;
@@ -756,7 +773,7 @@ a:hover {
 	background-position: center;
 	
 }
-@media screen and (min-width: 600px){
+@media screen and (min-width: 900px){
 	.memory_img6 {
 	height: 20em;
 	margin: 11em 1em 11em 0em;
@@ -773,7 +790,7 @@ a:hover {
 	background-position: center;
 	
 }
-@media screen and (min-width: 600px){
+@media screen and (min-width: 900px){
 	.memory_img7 {
 	height: 20em;
 	margin: 11em 1em 11em 0em;
@@ -837,62 +854,135 @@ a:hover {
 .handletter_text1 {
 	font-family: 'Heebo', sans-serif;
 	font-weight: 300;
-	font-size: 1.2em;
-	margin: 6em 0em 3em 8em
+	font-size: 3vw;
+	margin: 1vw 10vw;
+	padding-bottom: 20vw;
+}
+@media screen and (min-width: 900px){
+	.handletter_text1 {
+		font-size: 1.2em;
+		margin: 6em 0em 3em 8em;
+		padding-bottom: 0vw;}
 }
 
 .handletter_img1 {
 	background-image: url(images/handletter.jpg);
-	height: 40em;
-	background-size: cover;
-	background-position: 0em -6em;
+	height: 70vw;
+	margin: 30vw 0vw;
+	background-size: 110%;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: scroll;
+}
+@media screen and (min-width: 900px){
+	.handletter_img1 {
+		height: 80vw;
+		margin: 0vw;
+		background-size: 100vw;
+		background-attachment: fixed;
+		}
 }
 
 .handletter_img2 {
 	background-image: url(images/handletter5.png);
-	height: 40em;
-	background-size: cover;
+	height: 70vw;
+	background-size: 110%;
+	margin: 30vw 0vw;
+	background-position: center;
+	background-attachment: scroll;
+	background-repeat: no-repeat;
+}
+@media screen and (min-width: 900px){
+	.handletter_img2 {
+		height: 80vw;
+		margin: 0vw;
+		background-size: 100vw;
+		background-attachment: fixed;}
 }
 
 .handletter_img3 {
 	background-image: url(images/handletter6.png);
-	height: 40em;
-	background-size: cover;
+	height: 70vw;
+	background-size: 110%;
+	margin: 30vw 0vw;
+	background-position: center;
+	background-attachment: scroll;
+	background-repeat: no-repeat;
+}
+@media screen and (min-width: 900px){
+	.handletter_img3 {
+		height: 80vw;
+		background-size: 100vw;
+		margin: 0vw;
+		background-attachment: fixed;}
 }
 
 .handletter_img4 {
 	background-image: url(images/handletter1.jpg);
+	height: 35vw;
+	width: 35vw;
+	margin: 10vw 26vw;
+	background-size: 120%;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+@media screen and (min-width: 900px){
+	.handletter_img4 {
 	height: 30em;
 	width: 30em;
 	margin: 6em 1em 6.5em 6em;
 	background-size: cover;
-	background-position: right;
-	
+	background-position: right;}
 }
 
 .handletter_img5 {
 	background-image: url(images/handletter2.jpg);
-	height: 20em;
-	margin: 11em 1em 11em 8em;
+	height: 60vw;
+	width: 10vw;
+	margin: 10vw 9vw;
 	background-size: cover;
 	background-position: center;
 	
 }
-.handletter_img6 {
-	background-image: url(images/handletter4.jpg);
+@media screen and (min-width: 900px){
+	.handletter_img5 {
 	height: 20em;
 	margin: 11em 1em 11em 2em;
 	background-size: cover;
-	background-position: center;
-	
+	background-position: center;}
 }
+
+.handletter_img6 {
+	background-image: url(images/handletter4.jpg);
+	height: 60vw;
+	width: 10vw;
+	margin: 10vw 9vw;
+	background-size: cover;
+	background-position: center;
+}
+@media screen and (min-width: 900px){
+	.handletter_img6 {
+	height: 20em;
+	margin: 11em 1em 11em 2em;
+	background-size: cover;
+	background-position: center;}
+}
+
 .handletter_img7 {
 	background-image: url(images/handletter3.jpg);
-	height: 20em;
-	margin: 11em 1em 12em 2em;
+	height: 60vw;
+	width: 10vw;
+	margin: 10vw 9vw;
 	background-size: cover;
 	background-position: center;
 	
+}
+@media screen and (min-width: 900px){
+	.handletter_img7 {
+	height: 20em;
+	margin: 11em 1em 11em 8em;
+	background-size: cover;
+	background-position: center;}
 }
 
 /*--------typeface1--------*/
@@ -900,362 +990,766 @@ a:hover {
 .typeface_text1 {
 	font-family: 'Heebo', sans-serif;
 	font-weight: 300;
-	font-size: 1.2em;
-	margin: 6em 0em 3em 8em;
+	font-size: 3vw;
+	margin: 1vw 10vw;
+	padding-bottom: 20vw;
+}
+@media screen and (min-width: 900px){
+	.typeface_text1 {
+		font-size: 1.2em;
+		margin: 6em 0em 3em 8em;
+		padding-bottom: 0vw;}
 }
 
 .typeface_img1 {
 	background-image: url(images/typeface.jpg);
-	height: 40em;
-	background-size: cover;
-	background-position: 0em -6em;
+	height: 70vw;
+	margin: 30vw 0vw;
+	background-size: 110%;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: scroll;
 }
+@media screen and (min-width: 900px){
+	.typeface_img1 {
+		height: 80vw;
+		margin: 0vw;
+		background-size: 100vw;
+		background-attachment: fixed;
+		}
+}
+
 
 .typeface_img2 {
 	background-image: url(images/typeface4.jpg);
-	height: 40em;
-	background-size: cover;
+	height: 70vw;
+	background-size: 110%;
+	margin: 30vw 0vw;
 	background-position: center;
+	background-attachment: scroll;
+	background-repeat: no-repeat;
+}
+@media screen and (min-width: 900px){
+	.typeface_img2 {
+		height: 80vw;
+		margin: 0vw;
+		background-size: 100vw;
+		background-attachment: fixed;}
 }
 
 .typeface_img3 {
 	background-image: url(images/typeface3.jpg);
-	height: 40em;
-	background-size: cover;
+	height: 70vw;
+	background-size: 110%;
+	margin: 30vw 0vw;
 	background-position: center;
+	background-attachment: scroll;
+	background-repeat: no-repeat;
+}
+@media screen and (min-width: 900px){
+	.typeface_img3 {
+		height: 80vw;
+		background-size: 100vw;
+		margin: 0vw;
+		background-attachment: fixed;}
 }
 
 .typeface_img4 {
 	background-image: url(images/typeface2.jpg);
-	height: 30em;
-	width: 30em;
-	margin: 6em 1em 6.5em 6em;
-	background-size: cover;
+	height: 35vw;
+	width: 35vw;
+	margin: 10vw 26vw;
+	background-size: 120%;
 	background-position: center;
-	
+	background-repeat: no-repeat;
 }
+@media screen and (min-width: 900px){
+	.typeface_img4 {
+		height: 30em;
+		width: 30em;
+		margin: 6em 1em 6.5em 6em;
+		background-size: cover;
+		background-position: center;}
+	}
 
 .typeface_img5 {
 	background-image: url(images/typeface6.jpg);
-	height: 20em;
-	margin: 11em 1em 11em 8em;
-	background-size: 100%;
-	background-position: center;
-	
+	height: 60vw;
+	width: 10vw;
+	margin: -5vw 9vw;
+	background-size: 80%;
+	background-repeat: no-repeat;
+	background-position: top;
 }
+@media screen and (min-width: 900px){
+	.typeface_img5 {
+		height: 20em;
+		margin: 11em 1em 11em 8em;
+		background-size: cover;
+		background-position: center;}
+	}
+
 .typeface_img6 {
 	background-image: url(images/typeface5.png);
+	height: 60vw;
+	width: 10vw;
+	margin: -5vw 9vw;
+	background-size: 75%;
+	background-repeat: no-repeat;
+	background-position: top;
+}
+@media screen and (min-width: 900px){
+	.typeface_img6 {
+	height: 20em;
+		margin: 11em 1em 11em 2em;
+		background-size: cover;
+		background-position: center;}
+}
+
+.typeface_img7 {
+	background-image: url(images/typeface7.jpg);
+	height: 60vw;
+	width: 10vw;
+	margin: -5vw 9vw;
+	background-size: 80%;
+	background-repeat: no-repeat;	
+	background-position: center;
+}
+@media screen and (min-width: 900px){
+	.typeface_img7 {
 	height: 20em;
 	margin: 11em 1em 11em 2em;
 	background-size: cover;
-	background-position: center;
-	
+	background-position: center;}
 }
-.typeface_img7 {
-	background-image: url(images/typeface7.jpg);
-	height: 20em;
-	margin: 11em 1em 12em 2em;
-	background-size: cover;
-	background-position: center;
-	
-}
+
 
 
 /*--------letterpress2--------*/
 .letterpress_text1 {
 	font-family: 'Heebo', sans-serif;
 	font-weight: 300;
-	font-size: 1.2em;
-	margin: 6em 0em 7em 8em;
+	font-size: 3vw;
+	margin: 1vw 10vw;
+	padding-bottom: 20vw;
 }
+@media screen and (min-width: 900px){
+	.letterpress_text1 {
+		font-size: 1.2em;
+		margin: 6em 0em 3em 8em;
+		padding-bottom: 0vw;}
+}
+
 
 .letterpress_img1 {
 	background-image: url(images/letterpress1.png);
-	height: 40em;
-	background-size: cover;
-	background-position: 0em -6em;
+	height: 70vw;
+	background-size: 110%;
+	margin: 30vw 0vw;
+	background-position: center;
+	background-attachment: scroll;
+	background-repeat: no-repeat;
 }
+@media screen and (min-width: 900px){
+	.letterpress_img1 {
+		height: 80vw;
+		margin: 0vw;
+		background-size: 100vw;
+		background-attachment: fixed;}
+}
+
 .letterpress_img2 {
 	background-image: url(images/letterpress4.jpg);
-	height: 40em;
-	background-size: cover;
+	height: 70vw;
+	background-size: 110%;
+	margin: 30vw 0vw;
 	background-position: center;
+	background-attachment: scroll;
+	background-repeat: no-repeat;
 }
+@media screen and (min-width: 900px){
+	.letterpress_img2 {
+		height: 80vw;
+		margin: 0vw;
+		background-size: 100vw;
+		background-attachment: fixed;}
+}
+
 .letterpress_img3 {
 	background-image: url(images/letterpress3.jpg);
-	height: 40em;
-	background-size: cover;
+	height: 70vw;
+	background-size: 110%;
+	margin: 30vw 0vw;
 	background-position: center;
+	background-attachment: scroll;
+	background-repeat: no-repeat;
 }
+@media screen and (min-width: 900px){
+	.letterpress_img3 {
+		height: 80vw;
+		margin: 0vw;
+		background-size: 100vw;
+		background-attachment: fixed;}
+}
+
 .letterpress_img4 {
 	background-image: url(images/letterpress2.jpg);
-	height: 30em;
-	width: 30em;
-	margin: 6em 1em 6.5em 6em;
-	background-size: cover;
+	height: 35vw;
+	width: 35vw;
+	margin: 10vw 26vw;
+	background-size: 140%;
 	background-position: center;
-	
+	background-repeat: no-repeat;
 }
+@media screen and (min-width: 900px){
+	.letterpress_img4 {
+		height: 30em;
+		width: 30em;
+		margin: 6em 1em 6.5em 6em;
+		background-size: cover;
+		background-position: center;}
+	}
+
 .letterpress_img5 {
 	background-image: url(images/letterpress6.jpg);
-	height: 20em;
-	margin: 11em 1em 11em 8em;
-	background-size: cover;
-	background-position: bottom;
-	
+	height: 60vw;
+	width: 10vw;
+	margin: -5vw 9vw;
+	background-size: 80%;
+	background-repeat: no-repeat;
+	background-position: top;
 }
+@media screen and (min-width: 900px){
+	.letterpress_img5 {
+		height: 20em;
+		margin: 11em 1em 11em 8em;
+		background-size: cover;
+		background-position: center;}
+	}
+
 .letterpress_img6 {
 	background-image: url(images/letterpress5.jpg);
-	height: 20em;
-	margin: 11em 1em 11em 2em;
-	background-size: cover;
-	background-position: center;
-	
+	height: 60vw;
+	width: 10vw;
+	margin: 7vw 9vw;
+	background-size: 80%;
+	background-repeat: no-repeat;
+	background-position: top;
 }
+@media screen and (min-width: 900px){
+	.letterpress_img6 {
+		height: 20em;
+		margin: 11em 1em 11em 8em;
+		background-size: cover;
+		background-position: center;}
+	}
+
 .letterpress_img7 {
 	background-image: url(images/letterpress7.jpg);
-	height: 20em;
-	margin: 11em 1em 12em 2em;
-	background-size: cover;
-	background-position: right;
-	
+	height: 60vw;
+	width: 10vw;
+	margin: -25vw 9vw;
+	background-size: 80%;
+	background-repeat: no-repeat;
+	background-position: top;
 }
+@media screen and (min-width: 900px){
+	.letterpress_img7 {
+		height: 20em;
+		margin: 11em 1em 11em 8em;
+		background-size: cover;
+		background-position: center;}
+	}
 
 
 /*-----RootsRaices----*/
 
 .rootsraices_img1 {
 	background-image: url(images/rootsraices6.png);
-	height: 40em;
-	background-size: cover;
-	background-position: 0em -6em;
+	height: 70vw;
+	background-size: 110%;
+	margin: 30vw 0vw;
+	background-position: center;
+	background-attachment: scroll;
+	background-repeat: no-repeat;
 }
+@media screen and (min-width: 900px){
+	.rootsraices_img1 {
+		height: 80vw;
+		margin: 0vw;
+		background-size: 100vw;
+		background-attachment: fixed;}
+}
+
 .rootsraices_img2 {
 	background-image: url(images/rootsraices.png);
-	height: 40em;
-	background-size: 50%;
+	height: 70vw;
+	background-size: 90%;
+	margin: 30vw 0vw;
 	background-position: center;
+	background-attachment: scroll;
 	background-repeat: no-repeat;
 }
+@media screen and (min-width: 900px){
+	.rootsraices_img2 {
+	height: 40em;
+	background-size: 60%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;}
+}
+
 .rootsraices_img3 {
 	background-image: url(images/rootsraices7.png);
-	height: 40em;
-	background-size: cover;
+	height: 70vw;
+	background-size: 200%;
+	margin: 30vw 0vw;
 	background-position: center;
+	background-attachment: scroll;
+	background-repeat: no-repeat;
 }
+@media screen and (min-width: 900px){
+	.rootsraices_img3 {
+		height: 80vw;
+		margin: 0vw;
+		background-size: 100vw;
+		background-attachment: fixed;}
+}
+
 .rootsraices_img4 {
 	background-image: url(images/rootsraices8.gif);
-	height: 30em;
-	width: 30em;
-	margin: 6em 1em 6.5em 6em;
-	background-size: 85%;
+	height: 35vw;
+	width: 35vw;
+	margin: 10vw 26vw;
+	background-size: 97%;
 	background-position: center;
 	background-repeat: no-repeat;
-	
 }
+@media screen and (min-width: 900px){
+	.rootsraices_img4 {
+		height: 30em;
+		width: 30em;
+		margin: 6em 1em 6.5em 6em;
+		background-size: cover;
+		background-position: center;}
+	}
+
 .rootsraices_img5 {
 	background-image: url(images/rootsraices5.png);
-	height: 20em;
-	margin: 11em 1em 11em 8em;
-	background-size: 120%;
-	background-position: -1.8em 2em ;
-	
+	height: 60vw;
+	width: 10vw;
+	margin: -5vw 9vw;
+	background-size: 80%;
+	background-repeat: no-repeat;
+	background-position: top;
 }
+@media screen and (min-width: 900px){
+	.rootsraices_img5 {
+		height: 20em;
+		margin: 11em 1em 11em 8em;
+		background-size: cover;
+		background-position: center;}
+	}
+
 .rootsraices_img6 {
 	background-image: url(images/rootsraices9.png);
-	height: 20em;
-	margin: 11em 1em 11em 2em;
-	background-size: cover;
-	background-position: right;
-	
+	height: 60vw;
+	width: 10vw;
+	margin: -5vw 9vw;
+	background-size: 80%;
+	background-repeat: no-repeat;
+	background-position: top;
 }
+@media screen and (min-width: 900px){
+	.rootsraices_img6 {
+		height: 20em;
+		margin: 11em 1em 11em 2em;
+		background-size: cover;
+		background-position: center;}
+	}
+
 .rootsraices_img7 {
-	background-image: url(images/rootsraices2.png);
-	height: 20em;
-	margin: 11em 1em 12em 2em;
-	background-size: cover;
-	background-position: center;
-	
+	background-image: url(images/rootsraices11.JPG);
+	height: 60vw;
+	width: 10vw;
+	margin: -5vw 9vw;
+	background-size: 80%;
+	background-repeat: no-repeat;
+	background-position: top;
 }
+@media screen and (min-width: 900px){
+	.rootsraices_img7 {
+		height: 20em;
+		margin: 11em 1em 11em 2em;
+		background-size: cover;
+		background-position: center;}
+	}
 
 
 /*----latinx----*/
 .latinx_img1 {
 	background-image: url(images/latinxbook3.jpg);
-	height: 40em;
-	background-size: cover;
-	background-position: 0em -6em;
-}
-.latinx_img2 {
-	background-image: url(images/latinxbook2.jpg);
-	height: 40em;
-	background-size: cover;
-	background-position: top;
+	height: 70vw;
+	background-size: 110%;
+	margin: 30vw 0vw;
+	background-position: center;
+	background-attachment: scroll;
 	background-repeat: no-repeat;
 }
+@media screen and (min-width: 900px){
+	.latinx_img1 {
+		height: 80vw;
+		margin: 0vw;
+		background-size: 100vw;
+		background-attachment: fixed;}
+}
+
+.latinx_img2 {
+	background-image: url(images/latinxbook2.jpg);
+	height: 70vw;
+	background-size: 110%;
+	margin: 30vw 0vw;
+	background-position: center;
+	background-attachment: scroll;
+	background-repeat: no-repeat;
+}
+@media screen and (min-width: 900px){
+	.latinx_img2 {
+		height: 80vw;
+		margin: 0vw;
+		background-size: 100vw;
+		background-attachment: fixed;}
+}
+
 .latinx_img3 {
 	background-image: url(images/latinxbook4.png);
-	height: 40em;
-	background-size: 150%;
+	height: 70vw;
+	background-size: 110%;
+	margin: 30vw 0vw;
 	background-position: left;
+	background-attachment: scroll;
+	background-repeat: no-repeat;
 }
+@media screen and (min-width: 900px){
+	.latinx_img3 {
+		height: 80vw;
+		margin: 0vw;
+		background-size: 110vw;
+		background-attachment: fixed;}
+}
+
 .latinx_img4 {
 	background-image: url(images/latinxbook.jpg);
-	height: 30em;
-	width: 30em;
-	margin: 6em 1em 6.5em 6em;
-	background-size: cover;
+	height: 35vw;
+	width: 35vw;
+	margin: 10vw 26vw;
+	background-size: 125%;
 	background-position: center;
-	
+	background-repeat: no-repeat;
 }
+@media screen and (min-width: 900px){
+	.latinx_img4 {
+		height: 30em;
+		width: 30em;
+		margin: 6em 1em 6.5em 6em;
+		background-size: cover;
+		background-position: center;}
+	}
+
 .latinx_img5 {
 	background-image: url(images/latinxbook5.jpg);
-	height: 20em;
-	margin: 11em 1em 11em 8em;
-	background-size: cover;
-	background-position: 0em -1em;
-	
+	height: 60vw;
+	width: 10vw;
+	margin: -5vw 9vw;
+	background-size: 80%;
+	background-repeat: no-repeat;
+	background-position: top;
 }
+@media screen and (min-width: 900px){
+	.latinx_img5 {
+		height: 20em;
+		margin: 11em 1em 11em 8em;
+		background-size: cover;
+		background-position: top;}
+	}
+
 .latinx_img6 {
 	background-image: url(images/rootsraices3.JPG);
-	height: 20em;
-	margin: 11em 1em 11em 2em;
-	background-size: 160%;
-	background-position: -9em -2.3em;
-	
+	height: 60vw;
+	width: 10vw;
+	margin: -5vw 9vw;
+	background-size: 80%;
+	background-repeat: no-repeat;
+	background-position: top;
 }
+@media screen and (min-width: 900px){
+	.latinx_img6 {
+		height: 20em;
+		margin: 11em 1em 11em 2em;
+		background-size: cover;
+		background-position: top;}
+	}
+
 .latinx_img7 {
 	background-image: url(images/latinxbook6.jpg);
-	height: 20em;
-	margin: 11em 1em 12em 2em;
-	background-size: cover;
-	background-position: left;
-	
+	height: 60vw;
+	width: 10vw;
+	margin: -10vw 9vw;
+	background-size: 80%;
+	background-repeat: no-repeat;
+	background-position: top;
 }
+@media screen and (min-width: 900px){
+	.latinx_img7 {
+		height: 20em;
+		margin: 11em 1em 11em 2em;
+		background-size: cover;
+		background-position: left;}
+	}
 
 
 /*-------all access------*/
 .allaccess_img1 {
 	background-image: url(images/allaccess.png);
-	height: 40em;
-	background-size: 45%;
-	background-position: 22em 10em;
+	height: 70vw;
+	background-size: 90%;
+	margin: 30vw 0vw;
+	background-position: center;
+	background-attachment: scroll;
 	background-repeat: no-repeat;
 	background-color: #44D3B8;
 	
 }
+@media screen and (min-width: 900px){
+	.allaccess_img1 {
+		height: 80vw;
+		margin: 0vw;
+		background-size: 50vw;
+		background-attachment: fixed;}
+}
+
 .allaccess_img2 {
 	background-image: url(images/allaccess6-04.png);
-	height: 40em;
-	background-size: cover;
-	background-position: top;
+	height: 70vw;
+	background-size: 110%;
+	margin: 30vw 0vw;
+	background-position: center;
+	background-attachment: scroll;
 	background-repeat: no-repeat;
 }
+@media screen and (min-width: 900px){
+	.allaccess_img2 {
+		height: 80vw;
+		margin: 0vw;
+		background-size: 100vw;
+		background-attachment: fixed;}
+}
+
+
 .allaccess_img3 {
 	background-image: url(images/allaccess11.png);
-	height: 40em;
-	background-size: cover;
-	background-position: left;
-}
-.allaccess_img4 {
-	background-image: url(images/allaccess_record.gif);
-	height: 30em;
-	width: 30em;
-	margin: 6em 1em 6.5em 6em;
-	background-size: contain;
+	height: 70vw;
+	background-size: 120%;
+	margin: 30vw 0vw;
 	background-position: center;
+	background-attachment: scroll;
 	background-repeat: no-repeat;
-	
 }
+@media screen and (min-width: 900px){
+	.allaccess_img3 {
+		height: 80vw;
+		margin: 0vw;
+		background-size: 100vw;
+		background-attachment: fixed;}
+}
+
 .allaccess_img5 {
 	background-image: url(images/allaccess10.png);
-	height: 20em;
-	margin: 11em 1em 11em 8em;
-	background-size: 90%;
+	height: 50vw;
+	width: 5vw;
+	margin: -5vw 9vw;
+	background-size: 60%;
 	background-repeat: no-repeat;
-	background-position: center;
-	
+	background-position: top;
 }
+@media screen and (min-width: 900px){
+	.allaccess_img5 {
+		height: 20em;
+		margin: 11em 1em 11em 8em;
+		background-size: cover;
+		background-position: top;}
+}
+
 .allaccess_img6 {
 	background-image: url(images/allaccess8.png);
-	height: 20em;
-	margin: 11em 1em 11em 2em;
-	background-size: 90%;
+	height: 50vw;
+	width: 5vw;
+	margin: 5vw 9vw;
+	background-size: 60%;
 	background-repeat: no-repeat;
-	background-position: center;
-	
+	background-position: top;
 }
+@media screen and (min-width: 900px){
+	.allaccess_img6 {
+		height: 20em;
+		margin: 11em 1em 11em 8em;
+		background-size: cover;
+		background-position: top;}
+}
+
 .allaccess_img7 {
 	background-image: url(images/allaccess9.png);
-	height: 20em;
-	margin: 11em 1em 12em 2em;
-	background-size: 90%;
+	height: 50vw;
+	width: 5vw;
+	margin: -7vw 9vw;
+	background-size: 60%;
 	background-repeat: no-repeat;
-	background-position: center;
-	
+	background-position: top;
+}
+@media screen and (min-width: 900px){
+	.allaccess_img7 {
+		height: 20em;
+		margin: 11em 1em 11em 8em;
+		background-size: cover;
+		background-position: top;}
 }
 
 /*----hexbox----*/
 .hexbox_text1 {
 	font-family: 'Heebo', sans-serif;
 	font-weight: 300;
-	font-size: 1.2em;
-	margin: 6em 0em 3em 8em
+	font-size: 3vw;
+	margin: 1vw 10vw;
+	padding-bottom: 20vw;
+}
+@media screen and (min-width: 900px){
+	.hexbox_text1 {
+		font-size: 1.1em;
+		margin: 10em 0em 3em 8em;
+		padding-bottom: 0vw;}
 }
 
 .hexbox_img1 {
 	background-image: url(images/hexbox3.jpg);
-	height: 40em;
-	background-size: cover;
-	background-position: 0em 1em;
+	height: 70vw;
+	background-size: 110%;
+	margin: 30vw 0vw;
+	background-position: center;
+	background-attachment: scroll;
+	background-repeat: no-repeat;
+	
 }
+@media screen and (min-width: 900px){
+	.hexbox_img1 {
+		height: 80vw;
+		margin: 0vw;
+		background-size: 100vw;
+		background-position:top;
+		background-attachment: fixed;}
+}
+
 
 .hexbox_img2 {
 	background-image: url(images/hexbox4.jpg);
-	height: 40em;
-	background-size: cover;
+	height: 70vw;
+	background-size: 110%;
+	margin: 30vw 0vw;
+	background-position: center;
+	background-attachment: scroll;
+	background-repeat: no-repeat;
+}
+@media screen and (min-width: 900px){
+	.hexbox_img2 {
+		height: 40vw;
+		margin: 0vw;
+		background-size: 100vw;
+		background-attachment: fixed;}
 }
 
 .hexbox_img3 {
 	background-image: url(images/hexbox12.png);
-	height: 40em;
-	background-size: cover;
+	height: 70vw;
+	background-size: 110%;
+	margin: 30vw 0vw;
 	background-position: center;
+	background-attachment: scroll;
+	background-repeat: no-repeat;
+}
+@media screen and (min-width: 900px){
+	.hexbox_img3 {
+		height: 80vw;
+		margin: 0vw;
+		background-size: 100vw;
+		background-attachment: fixed;}
 }
 
 .hexbox_img4 {
 	background-image: url(images/hexbox9.png);
-	height: 30em;
-	width: 30em;
-	margin: 6em 1em 6.5em 6em;
-	background-size: cover;
-	background-position: right;
-	
+	height: 38vw;
+	width: 38vw;
+	margin: 10vw 26vw;
+	background-size: 110%;
+	background-position: center;
+	background-repeat: no-repeat;
 }
+@media screen and (min-width: 900px){
+	.hexbox_img4 {
+		height: 30em;
+		width: 30em;
+		margin: 6em 1em 6.5em 6em;
+		background-size: cover;
+		background-position: center;}
+	}
 
 .hexbox_img5 {
 	background-image: url(images/hexbox5.jpg);
-	height: 20em;
-	margin: 11em 1em 11em 8em;
-	background-size: cover;
-	background-position: center;
-	
+	height: 50vw;
+	width: 5vw;
+	margin: -5vw 9vw;
+	background-size: 60%;
+	background-repeat: no-repeat;
+	background-position: top;
 }
+@media screen and (min-width: 900px){
+	.hexbox_img5 {
+		height: 20em;
+		margin: 11em 1em 11em 7em;
+		background-size: cover;
+		background-position: top;}
+}
+
 .hexbox_img6 {
 	background-image: url(images/hexbox6.jpg);
-	height: 20em;
-	margin: 11em 1em 11em 2em;
-	background-size: cover;
-	background-position: center;
-	
+	height: 50vw;
+	width: 5vw;
+	margin: -5vw 9vw;
+	background-size: 60%;
+	background-repeat: no-repeat;
+	background-position: top;
 }
+@media screen and (min-width: 900px){
+	.hexbox_img6 {
+		height: 20em;
+		margin: 11em 1em 11em 2em;
+		background-size: cover;
+		background-position: top;}
+}
+
 .hexbox_img7 {
 	background-image: url(images/hexbox7.jpg);
-	height: 20em;
-	margin: 11em 1em 12em 2em;
-	background-size: cover;
-	background-position: center;
-	
+	height: 50vw;
+	width: 5vw;
+	margin: -5vw 9vw;
+	background-size: 60%;
+	background-repeat: no-repeat;
+	background-position: top;
+}
+@media screen and (min-width: 900px){
+	.hexbox_img7 {
+		height: 20em;
+		margin: 11em 1em 11em 2em;
+		background-size: cover;
+		background-position: top;}
 }
 
 .hexbox_img8 {
@@ -1311,59 +1805,119 @@ a:hover {
 .habichuelas_text1 {
 	font-family: 'Heebo', sans-serif;
 	font-weight: 300;
-	font-size: 1.2em;
-	margin: 6em 0em 3em 8em
+	font-size: 3vw;
+	margin: 1vw 10vw;
+	padding-bottom: 20vw;
+}
+@media screen and (min-width: 900px){
+	.habichuelas_text1 {
+		font-size: 1.1em;
+		margin: 9em 0em 3em 8em;
+		padding-bottom: 0vw;}
 }
 
 .habichuelas_img1 {
 	background-image: url(images/habichuelas5.jpg);
-	height: 40em;
-	background-size: cover;
-	background-position: 0em 2em;
+	height: 70vw;
+	background-size: 110%;
+	margin: 30vw 0vw;
+	background-position: top;
+	background-attachment: scroll;
+	background-repeat: no-repeat;
+}
+@media screen and (min-width: 900px){
+	.habichuelas_img1 {
+		height: 40vw;
+		margin: 0vw;
+		background-size: 100vw;
+		background-attachment: fixed;}
 }
 
 .habichuelas_img2 {
 	background-image: url(images/habichuelas5.jpg);
-	height: 40em;
-	background-size: cover;
+	height: 70vw;
+	background-size: 110%;
+	margin: 30vw 0vw;
 	background-position: bottom;
+	background-attachment: scroll;
+	background-repeat: no-repeat;
+}
+@media screen and (min-width: 900px){
+	.habichuelas_img2 {
+		height: 40vw;
+		margin: 0vw;
+		background-size: 100vw;
+		background-attachment: fixed;}
 }
 
 
 .habichuelas_img4 {
 	background-image: url(images/stilllife.jpg);
-	height: 30em;
-	width: 30em;
-	margin: 6em 1em 6.5em 6em;
-	background-size: 22em;
+	height: 38vw;
+	width: 38vw;
+	margin: 10vw 26vw;
+	background-size: 110%;
 	background-position: center;
 	background-repeat: no-repeat;
-	
 }
+@media screen and (min-width: 900px){
+	.habichuelas_img4 {
+		height: 30em;
+		width: 30em;
+		margin: 6em 1em 6.5em 6em;
+		background-size: 70%;
+		background-position: bottom;}
+	}
 
 .habichuelas_img5 {
 	background-image: url(images/habichuelas3.jpg);
-	height: 20em;
-	margin: 11em 1em 11em 8em;
-	background-size: cover;
-	background-position: left;
-	
+	height: 50vw;
+	width: 5vw;
+	margin: -5vw 9vw;
+	background-size: 60%;
+	background-repeat: no-repeat;
+	background-position: top;
 }
+@media screen and (min-width: 900px){
+	.habichuelas_img5 {
+		height: 20em;
+		margin: 11em 1em 11em 7em;
+		background-size: cover;
+		background-position: top;}
+}
+
 .habichuelas_img6 {
 	background-image: url(images/habichuelas4.jpg);
-	height: 20em;
-	margin: 11em 1em 11em 2em;
-	background-size: cover;
-	background-position: center;
-	
+	height: 50vw;
+	width: 5vw;
+	margin: -10vw 9vw;
+	background-size: 60%;
+	background-repeat: no-repeat;
+	background-position: top;
 }
+@media screen and (min-width: 900px){
+	.habichuelas_img6 {
+		height: 20em;
+		margin: 11em 1em 11em 2em;
+		background-size: cover;
+		background-position: top;}
+}
+
 .habichuelas_img7 {
 	background-image: url(images/habichuelas6.jpg);
-	height: 20em;
-	margin: 11em 1em 12em 2em;
-	background-size: cover;
-	background-position: center;
-	
+	height: 50vw;
+	width: 5vw;
+	margin: 12vw 9vw;
+	background-size: 60%;
+	background-repeat: no-repeat;
+	background-position: top;
+}
+@media screen and (min-width: 900px){
+	.habichuelas_img7 {
+		height: 20em;
+		margin: 11em 1em 11em 2em;
+		background-size: cover;
+		background-position: top;}
 }
 
 
@@ -1372,127 +1926,271 @@ a:hover {
 .carnaval_text1 {
 	font-family: 'Heebo', sans-serif;
 	font-weight: 300;
-	font-size: 1.2em;
-	margin: 8em 0em 3em 3em
+	font-size: 3vw;
+	margin: 1vw 10vw;
+	padding-bottom: 20vw;
+}
+@media screen and (min-width: 900px){
+	.carnaval_text1 {
+		font-size: 1.1em;
+		margin: 7em 6em 5em 8em;
+		padding-bottom: 0vw;}
 }
 
 .carnaval_img1 {
 	background-image: url(images/canraval8.jpg);
-	height: 40em;
-	background-size: cover;
-	background-position: 0em 1em;
+	height: 70vw;
+	background-size: 110%;
+	margin: 30vw 0vw;
+	background-position: top;
+	background-attachment: scroll;
+	background-repeat: no-repeat;
+}
+@media screen and (min-width: 900px){
+	.carnaval_img1 {
+		height: 40vw;
+		margin: 0vw;
+		background-size: 100vw;
+		background-attachment: fixed;}
 }
 
 .carnaval_img2 {
 	background-image: url(images/carnaval2.jpg);
-	height: 40em;
-	background-size: cover;
+	height: 70vw;
+	background-size: 110%;
+	margin: 30vw 0vw;
 	background-position: center;
+	background-attachment: scroll;
+	background-repeat: no-repeat;
+}
+@media screen and (min-width: 900px){
+	.carnaval_img2 {
+		height: 80vw;
+		margin: 0vw;
+		background-size: 100vw;
+		background-attachment: fixed;}
 }
 
 .carnaval_img3 {
 	background-image: url(images/carnaval3.jpg);
-	height: 40em;
-	background-size: cover;
+	height: 70vw;
+	background-size: 110%;
+	margin: 30vw 0vw;
 	background-position: center;
+	background-attachment: scroll;
+	background-repeat: no-repeat;
+}
+@media screen and (min-width: 900px){
+	.carnaval_img3 {
+		height: 80vw;
+		margin: 0vw;
+		background-size: 100vw;
+		background-attachment: fixed;}
 }
 
 .carnaval_img4 {
 	background-image: url(images/carnaval.jpg);
-	height: 33em;
-	width: 30em;
-	margin: 6em 1em 6.5em 6em;
-	background-size: 20em;
-	background-position: center;
+	height: 38vw;
+	width: 38vw;
+	margin: 10vw 26vw;
+	background-size: 100%;
+	background-position: 0vw -5vw;
 	background-repeat: no-repeat;
 }
+@media screen and (min-width: 900px){
+	.carnaval_img4 {
+		height: 30em;
+		width: 30em;
+		margin: 6em 1em 6.5em 6em;
+		background-size: 67%;
+		background-position: bottom;}
+	}
 
 .carnaval_img5 {
 	background-image: url(images/carnaval5.jpg);
-	height: 20em;
-	margin: 11em 1em 11em 8em;
-	background-size: cover;
-	background-position: center;
-	
+	height: 50vw;
+	width: 5vw;
+	margin: -5vw 9vw;
+	background-size: 60%;
+	background-repeat: no-repeat;
+	background-position: top;
 }
+@media screen and (min-width: 900px){
+	.carnaval_img5 {
+		height: 20em;
+		margin: 11em 1em 11em 7em;
+		background-size: cover;
+		background-position: top;}
+}
+
 .carnaval_img6 {
 	background-image: url(images/carnaval7.JPG);
-	height: 20em;
-	margin: 11em 1em 11em 2em;
-	background-size: cover;
-	background-position: center;
-	
+	height: 50vw;
+	width: 5vw;
+	margin: 0vw 9vw;
+	background-size: 60%;
+	background-repeat: no-repeat;
+	background-position: top;
 }
+@media screen and (min-width: 900px){
+	.carnaval_img6 {
+		height: 20em;
+		margin: 11em 1em 11em 2em;
+		background-size: cover;
+		background-position: top;}
+}
+
 .carnaval_img7 {
 	background-image: url(images/carnaval6.jpg);
-	height: 20em;
-	margin: 11em 1em 12em 2em;
-	background-size: cover;
-	background-position: center;
-	
+	height: 50vw;
+	width: 5vw;
+	margin: 10vw 9vw;
+	background-size: 60%;
+	background-repeat: no-repeat;
+	background-position: top;
+}
+@media screen and (min-width: 900px){
+	.carnaval_img7 {
+		height: 20em;
+		margin: 11em 1em 11em 2em;
+		background-size: cover;
+		background-position: top;}
 }
 
 /*----casa de MD----*/
 .casa_text1 {
 	font-family: 'Heebo', sans-serif;
 	font-weight: 300;
-	font-size: 1.2em;
-	margin: 6em 0em 3em 8em
+	font-size: 3vw;
+	margin: 1vw 10vw;
+	padding-bottom: 20vw;
+}
+@media screen and (min-width: 900px){
+	.casa_text1 {
+		font-size: 1.1em;
+		margin: 11em 6em 11em 8em;
+		padding-bottom: 0vw;}
 }
 
 .casa_img1 {
 	background-image: url(images/casa3.jpg);
-	height: 40em;
-	background-size: cover;
-	background-position: 0em 3em;
+	height: 70vw;
+	background-size: 110%;
+	margin: 30vw 0vw;
+	background-position: top;
+	background-attachment: scroll;
+	background-repeat: no-repeat;
+}
+@media screen and (min-width: 900px){
+	.casa_img1 {
+		height: 80vw;
+		margin: 0vw;
+		background-size: 100vw;
+		background-attachment: fixed;}
 }
 
 .casa_img2 {
 	background-image: url(images/casa6.jpg);
-	height: 40em;
-	background-size: cover;
+	height: 70vw;
+	background-size: 110%;
+	margin: 30vw 0vw;
+	background-position: top;
+	background-attachment: scroll;
+	background-repeat: no-repeat;
+}
+@media screen and (min-width: 900px){
+	.casa_img2 {
+		height: 80vw;
+		margin: 0vw;
+		background-size: 100vw;
+		background-attachment: fixed;}
 }
 
 .casa_img3 {
 	background-image: url(images/casa12.jpg);
-	height: 40em;
-	background-size: cover;
-	background-position: center;
+	height: 70vw;
+	background-size: 110%;
+	margin: 30vw 0vw;
+	background-position: top;
+	background-attachment: scroll;
+	background-repeat: no-repeat;
+}
+@media screen and (min-width: 900px){
+	.casa_img3 {
+		height: 80vw;
+		margin: 0vw;
+		background-size: 100vw;
+		background-position: center;
+		background-attachment: fixed;}
 }
 
 .casa_img4 {
 	background-image: url(images/casa8.jpg);
-	height: 30em;
-	width: 30em;
-	margin: 3em 0em 8em 6.5em;
-	background-size: cover;
-	background-position: left;
-	
+	height: 38vw;
+	width: 38vw;
+	margin: 10vw 26vw;
+	background-size: 125%;
+	background-position: center;
+	background-repeat: no-repeat;
 }
+@media screen and (min-width: 900px){
+	.casa_img4 {
+		height: 30em;
+		width: 30em;
+		margin: 4em 1em 6.5em 6em;
+		background-size: 110%;
+		background-position: bottom;}
+	}
 
 .casa_img5 {
 	background-image: url(images/casa4.png);
-	height: 20em;
-	margin: 11em 1em 11em 8em;
-	background-size: cover;
-	background-position: center;
-	
+	height: 50vw;
+	width: 5vw;
+	margin: -5vw 9vw;
+	background-size: 60%;
+	background-repeat: no-repeat;
+	background-position: top;
 }
+@media screen and (min-width: 900px){
+	.casa_img5 {
+		height: 20em;
+		margin: 11em 1em 11em 7em;
+		background-size: cover;
+		background-position: top;}
+}
+
 .casa_img6 {
 	background-image: url(images/casa7.png);
-	height: 20em;
-	margin: 11em 1em 11em 2em;
-	background-size: cover;
-	background-position: center;
-	
+	height: 50vw;
+	width: 5vw;
+	margin: -5vw 9vw;
+	background-size: 60%;
+	background-repeat: no-repeat;
+	background-position: top;
 }
+@media screen and (min-width: 900px){
+	.casa_img6 {
+		height: 20em;
+		margin: 11em 1em 11em 2em;
+		background-size: cover;
+		background-position: top;}
+}
+
 .casa_img7 {
 	background-image: url(images/casa5.jpg);
-	height: 20em;
-	margin: 11em 1em 12em 2em;
-	background-size: cover;
-	background-position: center;
-	
+	height: 50vw;
+	width: 5vw;
+	margin: -5vw 9vw;
+	background-size: 60%;
+	background-repeat: no-repeat;
+	background-position: top;
+}
+@media screen and (min-width: 900px){
+	.casa_img7 {
+		height: 20em;
+		margin: 11em 1em 11em 2em;
+		background-size: cover;
+		background-position: top;}
 }
 
 .casa_img8 {
@@ -1558,11 +2256,11 @@ a:hover {
 /*---------------- Contact --------------*/
 .headshot {
 	margin-top: 50vw;
-	padding-right: 30vw;
+	margin-left: 0vw;
 	margin-bottom: 0vw;
 	width: 80vw;
-	height: 20vw;
-	background-image:url(images/headshot.JPG);
+	height: 50vw;
+	background-image:url(images/headshot1.png);
 	background-size: contain;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -1573,11 +2271,11 @@ a:hover {
 @media screen and (min-width: 900px){
 	.headshot {
 	margin-top: 10vw;
-	padding-right: 30vw;
 	margin-bottom: 15vw;
+	margin-left: -15vw;
 	width: 80vw;
-	height: 20vw;
-	background-image:url(images/headshot.JPG);
+	height: 30vw;
+	background-image:url(images/headshot1.png);
 	background-size: contain;
 	background-position: center;
 	background-repeat: no-repeat;
